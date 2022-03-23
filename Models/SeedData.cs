@@ -487,13 +487,13 @@ namespace dndgenesis.Models
                         //  Ench. - 50
                         new Spell { SpellName = "", Level = 1, SchoolMagicId = 4, BookId = 1 },
                         //  Evoc. - 109
-                        new Spell { SpellName = "", Level = 1, SchoolMagicId = 4, BookId = 1 },
-                        //  Illu. - 33
                         new Spell { SpellName = "", Level = 1, SchoolMagicId = 5, BookId = 1 },
-                        //  Necro. - 42
+                        //  Illu. - 33
                         new Spell { SpellName = "", Level = 1, SchoolMagicId = 6, BookId = 1 },
-                        //  Trans. - 101
+                        //  Necro. - 42
                         new Spell { SpellName = "", Level = 1, SchoolMagicId = 7, BookId = 1 },
+                        //  Trans. - 101
+                        new Spell { SpellName = "", Level = 1, SchoolMagicId = 8, BookId = 1 },
                     };
                     foreach (Spell x in spells)
                     {
