@@ -482,18 +482,32 @@ namespace dndgenesis.Models
                         new Spell { SpellName = "Wish", Level = 8, SchoolMagicId = 2, BookId = 1 },
                         new Spell { SpellName = "Word of Recall", Level = 6, SchoolMagicId = 2, BookId = 1 },
                         new Spell { SpellName = "Wristpocket", Level = 2, SchoolMagicId = 2, BookId = 10 },
-                        //  Divin. - 35
+
+                        //  Divin. - 35 (SchoolMagicId = 3)
                         new Spell { SpellName = "", Level = 1, SchoolMagicId = 3, BookId = 1 },
-                        //  Ench. - 50
+                        new Spell { SpellName = "", Level = 1, SchoolMagicId = 3, BookId = 1 },
+
+                        //  Ench. - 50 (SchoolMagicId = 4)
                         new Spell { SpellName = "", Level = 1, SchoolMagicId = 4, BookId = 1 },
-                        //  Evoc. - 109
+                        new Spell { SpellName = "", Level = 1, SchoolMagicId = 4, BookId = 1 },
+
+                        //  Evoc. - 109 (SchoolMagicId = 5)
                         new Spell { SpellName = "", Level = 1, SchoolMagicId = 5, BookId = 1 },
-                        //  Illu. - 33
+                        new Spell { SpellName = "", Level = 1, SchoolMagicId = 5, BookId = 1 },
+
+                        //  Illu. - 33 (SchoolMagicId = 6)
                         new Spell { SpellName = "", Level = 1, SchoolMagicId = 6, BookId = 1 },
-                        //  Necro. - 42
+                        new Spell { SpellName = "", Level = 1, SchoolMagicId = 6, BookId = 1 },
+
+                        //  Necro. - 42 (SchoolMagicId = 7)
                         new Spell { SpellName = "", Level = 1, SchoolMagicId = 7, BookId = 1 },
-                        //  Trans. - 101
+                        new Spell { SpellName = "", Level = 1, SchoolMagicId = 7, BookId = 1 },
+
+                        //  Trans. - 101 (SchoolMagicId = 8)
                         new Spell { SpellName = "", Level = 1, SchoolMagicId = 8, BookId = 1 },
+                        new Spell { SpellName = "", Level = 1, SchoolMagicId = 8, BookId = 1 },
+
+
                     };
                     foreach (Spell x in spells)
                     {
