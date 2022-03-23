@@ -16,5 +16,12 @@ namespace dndgenesis.Data
         }
 
         public DbSet<dndgenesis.Models.DndClass> DndClass { get; set; }
+        public DbSet<dndgenesis.Models.DndSubclass> DndSubclass { get; set; }
+        public DbSet<dndgenesis.Models.Book> Book { get; set; }
+        public DbSet<dndgenesis.Models.Race> Race { get; set; }
+        public DbSet<dndgenesis.Models.Subrace> Subrace { get; set; }
+        public DbSet<dndgenesis.Models.Spell> Spell { get; set; }
+        public DbSet<dndgenesis.Models.SchoolMagic> SchoolMagic { get; set; }
+
     }
 }
