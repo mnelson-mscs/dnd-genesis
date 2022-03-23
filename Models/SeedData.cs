@@ -269,7 +269,7 @@ namespace dndgenesis.Models
                 }
             }
 
-            // insert schoolmagic
+            // insert schools
             if (!context.SchoolMagic.Any())
             {
                 context.Database.OpenConnection();
@@ -303,7 +303,15 @@ namespace dndgenesis.Models
                 };
             }
 
-            // insert spell
+            // insert spells (144/514)
+            //  Abj. - 53: done
+            //  Conj. - 91: done
+            //  Divin. - 35
+            //  Ench. - 50
+            //  Evoc. - 109
+            //  Illu. - 33
+            //  Necro. - 42
+            //  Trans. - 101
             if (!context.Spell.Any())
             {
                 context.Database.OpenConnection();
@@ -327,7 +335,8 @@ namespace dndgenesis.Models
                         //new Spell { SpellName = "Banishment", Level = 4, Ritual = false, CastingTime = "Action", Concentration = true, Range = "60", Components = "V, S, M (an item distasteful to the target)", Duration = "Concentration, up to 1 minute", SchoolMagicId = 1, BookId = 1 },
                         //new Spell { SpellName = "Beacon of Hope", Level = 3, Ritual = false, CastingTime = "Action", Concentration = true, Range = "30", Components = "V, S", Duration = "Concentration, up to 1 minute", SchoolMagicId = 1, BookId = 1 },
                         //new Spell { SpellName = "Blade Ward", Level = 0, SchoolMagicId = 1, BookId = 1 },
-                        // abj
+
+                        // Abj. - 53
                         new Spell { SpellName = "Absorb Elements", Level = 1, SchoolMagicId = 1, BookId = 5 },
                         new Spell { SpellName = "Aid", Level = 2, SchoolMagicId = 1, BookId = 1 },
                         new Spell { SpellName = "Alarm", Level = 1, SchoolMagicId = 1, BookId = 1 },
@@ -381,7 +390,7 @@ namespace dndgenesis.Models
                         new Spell { SpellName = "Stoneskin", Level = 4, SchoolMagicId = 1, BookId = 1 },
                         new Spell { SpellName = "Symbol", Level = 7, SchoolMagicId = 1, BookId = 1 },
                         new Spell { SpellName = "Warding Bond", Level = 2, SchoolMagicId = 1, BookId = 1 },
-                        // conj
+                        // Conj. - 91
                         new Spell { SpellName = "Acid Splash", Level = 0, SchoolMagicId = 2, BookId = 1 },
                         new Spell { SpellName = "Arcane Gate", Level = 6, SchoolMagicId = 2, BookId = 1 },
                         new Spell { SpellName = "Arms of Hadar", Level = 1, SchoolMagicId = 2, BookId = 1 },
@@ -472,8 +481,19 @@ namespace dndgenesis.Models
                         new Spell { SpellName = "Web", Level = 2, SchoolMagicId = 2, BookId = 1 },
                         new Spell { SpellName = "Wish", Level = 8, SchoolMagicId = 2, BookId = 1 },
                         new Spell { SpellName = "Word of Recall", Level = 6, SchoolMagicId = 2, BookId = 1 },
-                        new Spell { SpellName = "Wristpocket", Level = 2, SchoolMagicId = 2, BookId = 10 }
-
+                        new Spell { SpellName = "Wristpocket", Level = 2, SchoolMagicId = 2, BookId = 10 },
+                        //  Divin. - 35
+                        new Spell { SpellName = "", Level = 1, SchoolMagicId = 3, BookId = 1 },
+                        //  Ench. - 50
+                        new Spell { SpellName = "", Level = 1, SchoolMagicId = 4, BookId = 1 },
+                        //  Evoc. - 109
+                        new Spell { SpellName = "", Level = 1, SchoolMagicId = 4, BookId = 1 },
+                        //  Illu. - 33
+                        new Spell { SpellName = "", Level = 1, SchoolMagicId = 5, BookId = 1 },
+                        //  Necro. - 42
+                        new Spell { SpellName = "", Level = 1, SchoolMagicId = 6, BookId = 1 },
+                        //  Trans. - 101
+                        new Spell { SpellName = "", Level = 1, SchoolMagicId = 7, BookId = 1 },
                     };
                     foreach (Spell x in spells)
                     {
@@ -490,7 +510,7 @@ namespace dndgenesis.Models
                 }
             }
 
-            // insert race
+            // insert races
             if (!context.Race.Any())
             {
                 context.Database.OpenConnection();
@@ -564,7 +584,7 @@ namespace dndgenesis.Models
                 };
             }
 
-            // insert subrace
+            // insert subraces
             if (!context.Subrace.Any())
             {
                 context.Database.OpenConnection();
